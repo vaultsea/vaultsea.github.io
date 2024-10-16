@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="https://avatars.githubusercontent.com/u/179376278?s=200&v=4">
+    <title>Vault Net</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+
+        h1 {
+            font-size: 2em;
+        }
+
+        p {
+            font-size: 1.2em;
+        }
+
+        a {
+            color: #fff;
+            text-decoration: none;
+            border-bottom: 1px dashed #fff;
+        }
+
+        a:hover {
+            border-bottom: 1px solid #fff;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #fff;
+        }
+
+        th {
+            background-color: #222;
+            color: #fff;
+        }
+
+        tr:nth-child(even) {
+            background-color: #333;
+        }
+
+        tr:hover {
+            background-color: #555;
+        }
+
+        .inline {
+            display: inline-block;
+            margin: 0;
+        }
+
+        .org-name {
+            font-size: 5rem;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <span class="inline org-name">1<span class="inline org-name" style="color: #00de00">0</span>1 BYTES</span><br>
+    <span id="site-datetime"></span>
+    <p><b>Vault Net</b> is currently under development.<br>
+    You can mail your suggestions, queries, use case, or feedback at <a href="mailto:vaultnet@101bytes.in">vaultnet@101bytes.in</a></p>
+    <table>
+        <thead>
+          <tr>
+            <th>Pipeline Section</th>
+            <th>Branch</th>
+            <th>Update Frequency</th>
+            <th>Task</th>
+            <th>Last Updated</th>
+            <th>Support Mail</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>dev</td>
+            <td>dev</td>
+            <td>every day</td>
+            <td>Devlopment</td>
+            <td id="dev-lastupdate">datetime</td>
+            <td><a href="mailto:vaultnet+dev@101bytes.in">vaultnet+dev@101bytes.in</a></td>
+          </tr>
+          <tr>
+            <td>beta</td>
+            <td>beta</td>
+            <td>every Wednesday</td>
+            <td>Testing</td>
+            <td id="beta-lastupdate">datetime</td>
+            <td><a href="mailto:vaultnet+beta@101bytes.in">vaultnet+beta@101bytes.in</a></td>
+          </tr>
+          <tr>
+            <td>staging</td>
+            <td>main</td>
+            <td>every Friday</td>
+            <td>Performace Testing + Prod Ready</td>
+            <td id="staging-lastupdate">datetime</td>
+            <td><a href="mailto:vaultnet+staging@101bytes.in">vaultnet+staging@101bytes.in</a></td>
+          </tr>
+          <tr>
+            <td>production</td>
+            <td>main</td>
+            <td>every Tuesday</td>
+            <td>Stable pipelines</td>
+            <td id="prod-lastupdate">datetime</td>
+            <td><a href="mailto:vaultnet+prod@101bytes.in">vaultnet+prod@101bytes.in</a></td>
+          </tr>
+        </tbody>
+      </table>
+      <footer>
+        <span>Check Site status at <a href="http://status.101bytes.in/status/vaultnet">http://status.101bytes.in/status/vaultnet</a></span><br>
+        <span class="inline">Copyright 2023-<span class="inline" id="date"></span> by <a href="https://497949.xyz">Arijit Bhowmick</a>. All Rights Reserved.</span>
+        <script src="/assets/js/main.js"></script>
+      </footer>
+</body>
+
+</html>
