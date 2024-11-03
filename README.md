@@ -1,2 +1,2 @@
-# vaultnet.github.io
-Temporary webpage for Vault Net Service
+# vaultsea.github.io
+Temporary webpage for Vault Sea Service
